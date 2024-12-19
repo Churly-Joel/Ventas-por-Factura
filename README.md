@@ -1,13 +1,15 @@
-# Segundo informe en Pythin sobre una base de datos de ventas por factura
+# Análisis de Ventas por Factura con Python
 
-# BASE DE DATOS :
-El presente informe tiene una base de datos de 1000 gatos donde los campos son:Raza,Color,Genero,Edad y Peso.
-# Explicacion breve:
-
-Utilize power bi para poder analisar los datos desarrollados por un conjunto de base da datos de la pagina Kaggle,resaltando que son de la vida real,esto es para poder transformar los datos en visualizaciones interactivas y detalladas.
-
-En la presente imagen se aprecia como primera instancia los rasgos importantes que se debe tener encuenta de cada gato(Raza,Genero,Color y cantidad total ),se aplico la segmentacion de datos para poder ubicar de manera mas facil cada caracteristica importante del gato seleccionado para las cualidades que se eligan en las opciones.
-
-Se añadio un grafico circular con medidas nuevas respecto a las edades de los gatos:
-# Gatos Adultos(2-6 años):
-Su energía y salud suelen ser óptimas, y presentan un comportamiento más equilibrado en comparación 
+# Descripcion breve :
+Este proyecto utiliza Python para realizar un análisis detallado de una base de datos de ventas organizadas por facturas. La base de datos original estaba almacenada en un archivo CSV, donde todos los valores (incluyendo precios y cantidades) estaban representados como texto. A través de transformaciones y tipificaciones, los datos fueron preparados para un análisis eficiente
+# Características del proyecto :
+Transformación de datos: Conversión de valores de texto a tipos adecuados: fechas (datetime), precios y totales (float), y cantidades (int)
+Creación de nuevas columnas calculadas, como el total por factura.
+# Consultas realizadas :
+Ventas totales por producto y cliente.
+Identificación de tendencias temporales en las ventas.
+Estadísticas descriptivas: promedios, máximos y mínimos.
+# Herramientas utilizadas:
+Pandas: Manipulación y análisis de datos.
+Seaborn y Matplotlib: Creación de visualizaciones
+Jupyter Notebook: Entorno interactivo para desarrollo y análisis.
